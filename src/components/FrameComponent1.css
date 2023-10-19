@@ -1,0 +1,116 @@
+.icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text-button {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  color: #64748b;
+}
+.headingFirst1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.input-text4 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.iconsolidcheck-circle-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.frame-parent {
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #334155;
+}
+.input-text7 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 139px;
+  flex-shrink: 0;
+}
+.earn-revenue-from-your-idle-fl {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.reefer {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.input-text-group,
+.tag,
+.tag-parent {
+  flex-direction: row;
+  align-items: center;
+}
+.tag {
+  border-radius: 8px;
+  background-color: #f1f5f9;
+  overflow: hidden;
+  display: flex;
+  padding: 6px 16px;
+  justify-content: center;
+  gap: 4px;
+}
+.input-text-group,
+.tag-parent {
+  justify-content: flex-start;
+}
+.tag-parent {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+  margin-left: -2px;
+  text-align: right;
+  font-size: 14px;
+}
+.input-text-group {
+  align-self: stretch;
+  display: none;
+  font-size: 16px;
+}
+.infoDescriptionParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: left;
+  font-size: 14px;
+  color: #475569;
+  font-family: Inter;
+}

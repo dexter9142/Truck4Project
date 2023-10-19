@@ -1,0 +1,974 @@
+.inputText {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 12px;
+  line-height: 24px;
+}
+.basicInput {
+  flex: 1;
+  position: relative;
+  border-radius: 8px 0 0 8px;
+  background-color: #fff;
+  border: 1px solid #94a3b8;
+  box-sizing: border-box;
+  height: 44px;
+}
+.iconoutlinesearch {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputLeftContent {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.basicInput1 {
+  flex: 1;
+  position: relative;
+  border-radius: 0 8px 8px 0;
+  background-color: #fff;
+  border: 1px solid #94a3b8;
+  box-sizing: border-box;
+  height: 44px;
+  overflow: hidden;
+  margin-left: -1px;
+}
+.basicInputParent {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 220px);
+  width: 439px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.button {
+  border-radius: 8px;
+  background-color: #fa6f32;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  z-index: 0;
+}
+.iconoutlinebell {
+  position: relative;
+  border-radius: 10px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button1 {
+  border-radius: 8px;
+  background-color: #f1f5f9;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.vt {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  line-height: 16px;
+  font-weight: 600;
+}
+.photo,
+.text1 {
+  position: relative;
+}
+.photo {
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.button2 {
+  border-radius: 8px 0 0 8px;
+  height: 44px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  gap: 8px;
+}
+.button2,
+.button3,
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+}
+.button3 {
+  border-radius: 0 8px 8px 0;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.buttonGroup {
+  border-radius: 8px;
+  background-color: #f1f5f9;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 12px;
+  color: #334155;
+}
+.frameChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  left: 152px;
+  border-radius: 40px;
+  background-color: #fe0000;
+  border: 1px solid #f1f5f9;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  z-index: 3;
+}
+.buttonParent {
+  position: absolute;
+  top: calc(50% - 22px);
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  color: #fff;
+}
+.theLogoMakerBuiltFor1000 {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: 0;
+  width: 213px;
+  height: 33px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.alreadyHaveAccount {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 612px);
+  width: 1224px;
+  height: 84px;
+  font-size: 16px;
+}
+.iconsolidchevronLeft {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button4,
+.button5,
+.button6 {
+  position: absolute;
+  top: 176px;
+  left: 32px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  height: 56px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.button5,
+.button6 {
+  top: 0;
+  left: 0;
+  border-radius: 8px 8px 0 0;
+}
+.button6 {
+  top: 56px;
+  border-radius: 0 0 8px 8px;
+}
+.groupDiv,
+.image76Icon {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  width: 56px;
+  height: 112px;
+}
+.image76Icon {
+  top: 821px;
+  left: 0;
+  width: 801px;
+  height: 26px;
+  object-fit: cover;
+}
+.component13,
+.component14,
+.component15 {
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 16px;
+}
+.component13 {
+  position: absolute;
+  top: 375px;
+  left: 196px;
+  overflow: hidden;
+}
+.component14,
+.component15 {
+  top: 556px;
+}
+.component14 {
+  position: absolute;
+  left: 175px;
+  overflow: hidden;
+}
+.component15 {
+  left: 394px;
+}
+.buttonContainer,
+.component15,
+.component16 {
+  position: absolute;
+  overflow: hidden;
+}
+.component16 {
+  top: 308px;
+  left: 405px;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 16px;
+}
+.buttonContainer {
+  top: 186px;
+  left: 812px;
+  width: 788px;
+  height: 847px;
+  background-image: url(/public/Map_Page/frame-2394@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 16px;
+  color: #000;
+}
+.button7,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+}
+.button7 {
+  border-radius: 8px;
+  background-color: #f1f5f9;
+  height: 36px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  gap: 6px;
+}
+.frameDiv {
+  position: absolute;
+  top: 0;
+  left: 338px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.resultsFound {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  line-height: 20px;
+  color: #000;
+  cursor: pointer;
+}
+.frameGroup {
+  position: absolute;
+  top: 203px;
+  left: 188px;
+  width: 600px;
+  height: 36px;
+  color: #0f172a;
+}
+.frameInner,
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  background-color: #fa6f32;
+  width: 8px;
+  height: 8px;
+}
+.frameInner {
+  background-color: #fff;
+  opacity: 0.5;
+}
+.ellipseParent {
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 20px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.mdicardsHeartOutlineIcon {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.premium {
+  position: relative;
+  line-height: 140%;
+}
+.badgesOnCard {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: 4px;
+  background-color: #ffba0a;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 6px;
+  gap: 4px;
+}
+.frameParent1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: 8px;
+  height: 157px;
+  background-image: url(/public/Map_Page/frame-2403@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.vecicleCardrectangle1271Child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #cbd5e1;
+}
+.vecicleCardrectangle1271 {
+  position: relative;
+  border-radius: 100px;
+  width: 6px;
+  height: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tandemTractor {
+  position: relative;
+  line-height: 24px;
+}
+.peterbilt579Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  font-size: 16px;
+}
+.materialSymbolsstarIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.materialSymbolsstarParent {
+  gap: 4px;
+}
+.frameWrapper,
+.materialSymbolsstarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iconoutlinetruck {
+  position: absolute;
+  top: 28px;
+  left: -22px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  display: none;
+}
+.k,
+.mileage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+}
+.mileage {
+  left: 38px;
+}
+.iconoutlinetruckParent,
+.pointMapIcon {
+  position: relative;
+  width: 90px;
+  height: 20px;
+}
+.pointMapIcon {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.milesAway {
+  position: relative;
+  line-height: 20px;
+}
+.toledoOhio43612Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  color: #64748b;
+}
+.span {
+  font-weight: 600;
+}
+.component31Inner,
+.dayWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component31Inner {
+  align-self: stretch;
+  align-items: center;
+}
+.component31 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  color: #000;
+}
+.component31,
+.vecicleCard,
+.vecicleCardParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.vecicleCard {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+.vecicleCardParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+}
+.frameChild7 {
+  position: relative;
+  border-radius: 50%;
+  background-color: #0f172a;
+  width: 8px;
+  height: 8px;
+  opacity: 0.3;
+}
+.badgesOnCard2,
+.badgesOnCard3 {
+  border-radius: 4px;
+  flex-direction: row;
+  padding: 2px 6px;
+}
+.badgesOnCard2 {
+  background-color: #3c85eb;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.badgesOnCard3 {
+  background-color: #ffba0a;
+}
+.badgesOnCard3,
+.badgesOnCard4,
+.badgesOnCardParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.badgesOnCard4 {
+  border-radius: 4px;
+  background-color: #38b762;
+  flex-direction: row;
+  padding: 2px 6px;
+}
+.badgesOnCardParent {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  flex-direction: column;
+  gap: 6px;
+}
+.frameParent3 {
+  align-self: stretch;
+  position: relative;
+  border-radius: 8px;
+  height: 157px;
+  background-image: url(/public/Map_Page/frame-24031@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.component32 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.component32,
+.vecicleCard2,
+.vecicleCardGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.vecicleCard2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.vecicleCardGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  color: #000;
+}
+.frameChild14 {
+  align-self: stretch;
+  position: relative;
+  background-color: #e2e8f0;
+  height: 1px;
+}
+.clearTheFilter {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  color: #64748b;
+}
+.iconoutlinetruckParent2,
+.moreDistantButNoLessImpoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconoutlinetruckParent2 {
+  flex-direction: row;
+  gap: 16px;
+}
+.clearFilters {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+  font-weight: 600;
+}
+.more458Transport {
+  margin: 0;
+  font-size: 14px;
+}
+.text4 {
+  position: relative;
+  line-height: 12px;
+}
+.button10,
+.button9 {
+  border-radius: 8px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button9 {
+  background-color: #f1f5f9;
+  display: none;
+  padding: 16px;
+}
+.button10 {
+  background-color: #fa6f32;
+  height: 36px;
+  display: flex;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #fff;
+}
+.frameParent5,
+.frameParent6,
+.toast {
+  align-self: stretch;
+  border-radius: 8px;
+}
+.toast {
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: #0f172a;
+}
+.frameParent5,
+.frameParent6 {
+  position: relative;
+  height: 157px;
+  background-image: url(/public/Map_Page/frame-24032@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frameParent6 {
+  background-image: url(/public/Map_Page/frame-24033@3x.png);
+}
+.resultsFound1 {
+  position: relative;
+  line-height: 150%;
+  color: #000;
+  display: none;
+}
+.topBorder {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #e2e8f0;
+  height: 1px;
+}
+.topBorder1 {
+  align-self: stretch;
+  position: relative;
+  height: 2px;
+}
+.previous {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.content,
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 4px 0 0;
+  gap: 12px;
+}
+.content1 {
+  align-items: flex-start;
+  justify-content: center;
+  padding: 16px 16px 0;
+}
+.topBorder3 {
+  align-self: stretch;
+  position: relative;
+  background-color: #fb814c;
+  height: 2px;
+}
+.numberLinks,
+.paginationnumberLink1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paginationnumberLink1 {
+  display: flex;
+  flex-direction: column;
+  color: #fa6f32;
+}
+.numberLinks {
+  text-align: center;
+}
+.content8,
+.links,
+.numberLinks {
+  display: flex;
+  flex-direction: row;
+}
+.content8 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 0 0 4px;
+  gap: 12px;
+}
+.links {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.centeredPageNumbersdesktop {
+  align-self: stretch;
+  position: relative;
+  height: 38px;
+  color: #64748b;
+}
+.frameContainer {
+  position: absolute;
+  top: 263px;
+  left: 188px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  color: #fff;
+}
+.frameChild23 {
+  position: relative;
+  background-color: #e2e8f0;
+  width: 1600px;
+  height: 1px;
+}
+.image75Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.headline {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frameParent8,
+.image75Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.frameParent8 {
+  flex-direction: row;
+  gap: 16px;
+  z-index: 0;
+}
+.choiceChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 72px;
+  left: 0;
+  background-color: #0f172a;
+  width: 39px;
+  height: 2px;
+  z-index: 1;
+}
+.choice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 18px;
+  color: #0f172a;
+}
+.frameChild24 {
+  align-self: stretch;
+  position: relative;
+  background-color: #cbd5e1;
+  width: 2px;
+}
+.image75Icon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.iconsolidchevronDown2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.instanceChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 70px;
+  left: 0;
+  background-color: #0f172a;
+  width: 39px;
+  height: 2px;
+  display: none;
+  z-index: 1;
+}
+.frameParent9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 18px;
+}
+.frameChild25 {
+  align-self: stretch;
+  position: relative;
+  background-color: #cbd5e1;
+  width: 2px;
+  display: none;
+}
+.button11,
+.choiceParent {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.choiceParent {
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 1120px;
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: 24px 64px 24px 0;
+  gap: 48px;
+}
+.button11 {
+  top: 21px;
+  right: 0;
+  border-radius: 8px;
+  background-color: #f1f5f9;
+  height: 56px;
+  overflow: hidden;
+  justify-content: center;
+  padding: 16px;
+  gap: 8px;
+  color: #0f172a;
+}
+.frameChild26 {
+  position: absolute;
+  top: 0;
+  left: 992px;
+  background: linear-gradient(-90deg, #fff, rgba(255, 255, 255, 0));
+  width: 113px;
+  height: 100px;
+}
+.frameParent7 {
+  position: relative;
+  width: 1224px;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  position: absolute;
+  top: 84px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mapPage {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 2033px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 14px;
+  color: #94a3b8;
+  font-family: Inter;
+}

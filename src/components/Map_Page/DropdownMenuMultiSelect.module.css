@@ -1,0 +1,63 @@
+.noIcon {
+  position: relative;
+  line-height: 20px;
+}
+.contextMenuItem,
+.contextMenuItem1 {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 9px 20px 9px 16px;
+  box-sizing: border-box;
+}
+.contextMenuItem {
+  display: none;
+  color: #94a3b8;
+}
+.contextMenuItem1 {
+  display: flex;
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  background-color: #e2e8f0;
+  height: 1px;
+}
+.contextMenuItem10,
+.dropdownMenuMultiSelect {
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.contextMenuItem10 {
+  align-self: stretch;
+  height: 36px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 9px 20px 9px 16px;
+  color: #e11d48;
+}
+.dropdownMenuMultiSelect {
+  position: relative;
+  box-shadow: 0 10px 22px rgba(45, 77, 108, 0.15);
+  width: 272px;
+  flex-direction: column;
+  padding: 4px;
+  gap: 2px;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #0f172a;
+  font-family: Inter;
+}

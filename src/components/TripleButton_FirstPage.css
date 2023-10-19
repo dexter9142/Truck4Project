@@ -1,0 +1,28 @@
+.devider,
+.devider1,
+.devider2 {
+  position: relative;
+  border-right: 1px solid #fb814c;
+  box-sizing: border-box;
+  width: 1px;
+  height: 45px;
+  z-index: 5;
+}
+.devider1,
+.devider2 {
+  border-right: 1px solid #cbd5e1;
+  z-index: 3;
+}
+.devider2 {
+  z-index: 1;
+}
+.regButtonsSelect {
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}

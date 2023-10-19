@@ -1,0 +1,32 @@
+.the-logo-maker-built-for-1000 {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: 0;
+  width: 213px;
+  height: 33px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.input-text {
+  position: relative;
+  line-height: 24px;
+}
+.input-text-parent {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.property-1already-have-accoun {
+  width: 1224px;
+  height: 84px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #334155;
+  font-family: Inter;
+}

@@ -1,0 +1,29 @@
+.text {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.nextButtonRudimentary {
+  width: 4vw;
+  border-radius: 8px;
+  background-color: #fa6f32;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+
+.nextButtonRudimentary > div {
+  display: flex;
+  width: inherit;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
