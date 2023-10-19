@@ -1,0 +1,16 @@
+.looking-for-rent-01-child {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 800px);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 1600px;
+  height: 1200px;
+  display: none;
+}
+.looking-for-rent-01 {
+  position: relative;
+  background-color: #f8fafc;
+  width: 100%;
+  height: 917px;
+  overflow: hidden;
+}

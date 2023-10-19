@@ -1,0 +1,411 @@
+.unsplashx60ygfg5soyIcon {
+    position: absolute;
+    top: 34vh;
+    right: -10vw;
+    width: 924px;
+    height: 616px;
+    object-fit: cover;
+  }
+  .inputText,
+  .inputText1 {
+    align-self: stretch;
+    position: relative;
+  }
+  .inputText {
+    line-height: 28px;
+    font-weight: 600;
+  }
+  .inputText1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .inputTextParent {
+    position: absolute;
+    top: 204px;
+    left: 88px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .celesClubPVidiGruzovikhMaIcon {
+    position: absolute;
+    top: 457px;
+    left: 419px;
+    width: 536px;
+    height: 402px;
+    object-fit: cover;
+    display: none;
+  }
+  .unsplashx60ygfg5soyParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e9f2f9;
+    width: 376px;
+    height: 1200px;
+    overflow: hidden;
+    font-size: 18px;
+  }
+  .theLogoMakerBuiltFor1000 {
+    position: absolute;
+    top: calc(50% - 17px);
+    left: 0;
+    width: 213px;
+    height: 33px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .inputText2,
+  .text {
+    position: relative;
+    line-height: 24px;
+  }
+  .text {
+    font-weight: 600;
+  }
+  .button,
+  .inputTextGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .button {
+    border-radius: 8px;
+    background-color: #f1f5f9;
+    height: 44px;
+    overflow: hidden;
+    justify-content: center;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    color: #0f172a;
+  }
+  .inputTextGroup {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .alreadyHaveAccount {
+    position: absolute;
+    top: 0px;
+    /* left: calc(50% - 612px); */
+    width: 90vw;
+    margin: 0 10vh;
+    height: 84px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #334155;
+  }
+  .vehicleOwner01Child {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 800px);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 1600px;
+    height: 1200px;
+    display: none;
+  }
+  .inputText3,
+  .userName {
+    align-self: stretch;
+    position: relative;
+  }
+  .userName {
+    line-height: 32px;
+    font-weight: 600;
+  }
+  .inputText3 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #334155;
+  }
+  .radioGroupItem,
+  .userNameParent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .userNameParent {
+    width: 307px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 24px;
+    color: #0f172a;
+  }
+  .radioGroupItem {
+    border-radius: 8px 0 0 8px;
+    background-color: #fff;
+    border-top: 1px solid #cbd5e1;
+    border-bottom: 1px solid #cbd5e1;
+    border-left: 1px solid #cbd5e1;
+    box-sizing: border-box;
+    height: 44px;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    cursor: pointer;
+    z-index: 6;
+  }
+  .devider {
+    position: relative;
+    border-right: 1px solid #fb814c;
+    box-sizing: border-box;
+    width: 1px;
+    height: 45px;
+    z-index: 5;
+  }
+  .radioGroupItem1 {
+    background-color: #fff;
+    border-top: 1px solid #cbd5e1;
+    border-bottom: 1px solid #cbd5e1;
+    box-sizing: border-box;
+    height: 44px;
+    overflow: hidden;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 12px;
+    z-index: 4;
+  }
+  .devider1 {
+    position: relative;
+    border-right: 1px solid #cbd5e1;
+    box-sizing: border-box;
+    width: 1px;
+    height: 45px;
+    z-index: 3;
+  }
+  .radioGroupItem2 {
+    background-color: #feede5;
+    border-top: 1px solid #fb814c;
+    border-bottom: 1px solid #fb814c;
+    box-sizing: border-box;
+    height: 44px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 12px;
+    z-index: 2;
+    color: #fa6f32;
+  }
+  .devider2 {
+    position: relative;
+    border-right: 1px solid #cbd5e1;
+    box-sizing: border-box;
+    width: 1px;
+    height: 45px;
+    z-index: 1;
+  }
+  .radioGroup,
+  .radioGroupItem3 {
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .radioGroupItem3 {
+    border-radius: 0 8px 8px 0;
+    border-top: 1px solid #cbd5e1;
+    border-right: 1px solid #cbd5e1;
+    border-bottom: 1px solid #cbd5e1;
+    box-sizing: border-box;
+    height: 44px;
+    padding: 10px 12px;
+    cursor: pointer;
+    z-index: 0;
+  }
+  .radioGroup {
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .textButton {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 14px;
+    color: #64748b;
+  }
+  .userName1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #0f172a;
+  }
+  .inputText4 {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsolidcheckCircleParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .frameParent {
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    color: #334155;
+  }
+  .button1,
+  .inputText7 {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .button1 {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #fa6f32;
+    height: 44px;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .inputText7 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+    width: 139px;
+  }
+  .earnRevenueFromYourIdleFl {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+  }
+  .reefer {
+    position: relative;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .inputTextContainer,
+  .tag,
+  .tagParent {
+    flex-direction: row;
+    align-items: center;
+  }
+  .tag {
+    border-radius: 8px;
+    background-color: #f1f5f9;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 6px 16px;
+    gap: 4px;
+  }
+  .inputTextContainer,
+  .tagParent {
+    justify-content: flex-start;
+  }
+  .tagParent {
+    flex: 1;
+    display: flex;
+    gap: 8px;
+    margin-left: -2px;
+    text-align: right;
+    font-size: 14px;
+  }
+  .inputTextContainer {
+    align-self: stretch;
+    display: none;
+  }
+  .groupChild,
+  .textButtonParent {
+    position: absolute;
+    border-radius: 20px;
+  }
+  .textButtonParent {
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px;
+    box-sizing: border-box;
+    gap: 32px;
+  }
+  .groupChild {
+    top: 48px;
+    left: 385px;
+    width: 167px;
+    height: 140.08px;
+  }
+  .instanceGroup {
+    position: relative;
+    width: 600px;
+    height: 304px;
+  }
+  .span {
+    color: #fa6f32;
+  }
+  .inputTextTxtContainer {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .inputText9 {
+    position: relative;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    width: 512px;
+    color: #334155;
+  }
+  .instanceParent {
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 196px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    color: #475569;
+  }
+  .vehicleOwner01 {
+    position: relative;
+    background-color: #f8fafc;
+    width: 100%;
+    height: 917px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: Inter;
+  }
+  
+  

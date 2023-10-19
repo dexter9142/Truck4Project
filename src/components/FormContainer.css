@@ -1,0 +1,59 @@
+.component-group {
+  align-self: stretch;
+  position: relative;
+  height: 284px;
+  font-size: 14px;
+  color: #475569;
+}
+.let-us-know {
+  color: #fa6f32;
+}
+.input-text-txt-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.input-text9 {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 512px;
+}
+.prefer-to-call {
+  font-family: Inter;
+}
+.prefer-to-call-get-in-touch-w {
+  color: #334155;
+}
+.span {
+  text-decoration: underline;
+}
+.input-text10 {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 512px;
+  color: #fa6f32;
+}
+.component-parent,
+.lowerBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+  color: #334155;
+}
+.component-parent {
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 196px);
+  width: 600px;
+  gap: 32px;
+  text-align: left;
+  font-size: 24px;
+  color: #0f172a;
+  font-family: Inter;
+}
